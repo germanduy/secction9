@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="com.company.addController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="147.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADD NUMBER PHONE" wrappingWidth="305.6708984375">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <TextField fx:id="name" layoutX="145.0" layoutY="94.0" prefHeight="31.0" prefWidth="252.0" promptText="Input Name" />
+      <TextField fx:id="number" layoutX="145.0" layoutY="147.0" prefHeight="31.0" prefWidth="252.0" promptText="Input Number" />
+      <Button onAction="#add" layoutX="159.0" layoutY="246.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="225.0" text="ADD" />
+   </children>
+</Pane>
